@@ -123,8 +123,8 @@ header .text-content .job{
 .buttons button:hover{
   transform: scale(0.97);
 }
-.content .girl img{
-  height: 100px;
+.text-content .buttons .mail button{
+  background-color: #e6223c;
 }
 header .media-icons{
   display: flex;
