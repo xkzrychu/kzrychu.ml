@@ -2,22 +2,95 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="UTF-8">
   <title> Kzrychu ・ Home Page</title>
+  <meta charset="UTF-8">
+  <meta name="image" content="images/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="image" content="images/logo.png">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  <style>
+    .snowflake {
+        color: #fff;
+        font-size: 1em;
+        font-family: Arial;
+        text-shadow: 0 0 1px #000;
+    }
+
+    @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,2s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,2s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:5s,.4s;animation-delay:5s,.4s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:2s,1s;animation-delay:2s,1s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:2s,1s;animation-delay:2s,1s}
+</style>
 </head>
 
 <body>
+  <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❅
+    </div>
+    <div class="snowflake">
+    ❆
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
+    <div class="snowflake">
+    ❄
+    </div>
   <header>
     <nav>
       <div class="navbar">
         <div class="logo">
-          <a href="https://kzrychu.ml/"><img src="images/logo.png" alt=""></a>
+          <a href="https://kzrychu.ml/"><img src="images/logo.png" alt="" data-aos="fade-down"
+              data-aos-duration="1000"></a>
         </div>
-        <ul class="menu">
+        <ul class="menu" data-aos="fade-down" data-aos-duration="1000">
           <li><a href="#">Home</a></li>
           <li><a href="#">Latest</a></li>
           <li><a href="#">Category</a></li>
@@ -28,32 +101,37 @@
     </nav>
     <div class="content">
       <div class="text-content">
-        <div class="text">Hi! My name is</div>
-        <div class="name">Kzrychu</div>
-        <div class="job">
+        <div data-aos="fade-up" data-aos-duration="1000">
+          <div class="text">Hi! My name is</div>
+          <div class="name">Kzrychu</div>
           <div class="job">
-            <span>And I'm a</span>
-            <div class="typing-text">
-              <span class="one">Fun-Dev and</span>
-              <span class="two">Gamer</span>
+            <div class="job">
+              <span>And I'm a</span>
+              <div class="typing-text">
+                <span class="one">Fun-Dev and</span>
+                <span class="two">Gamer</span>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="buttons">
-          <a href="https://discord.gg/kzrychu"><button><img src="images/discord.png"> Discord</button></a>
-          <a href="mailto:contact@kzrychu.ml"><span class="mail"><button><img src="images/mail.png"> Mail</button></a>
+          <div class="buttons">
+            <a href="https://discord.gg/kzrychu"><button><img src="images/discord.png"> Discord</button></a>
+            <a href="mailto:contact@kzrychu.ml"><span class="mail"><button><img src="images/mail.png"> Mail</button></a>
+          </div>
         </div>
       </div>
     </div>
-    </div>
-    <div class="media-icons">
+    <div class="media-icons" data-aos="fade-left" data-aos-duration="1000">
+      <a href="https://www.twitch.tv/xkzrychu"><i class="fab fa-twitch"></i></a>
       <a href="https://www.youtube.com/channel/UClaZ-2hyX3pzmPrOVaOoaUA"><i class="fab fa-youtube"></i></a>
       <a href="https://twitter.com/xkzrychu"><i class="fab fa-twitter"></i></a>
       <a href="https://github.com/xkzrychu"><i class="fab fa-github"></i></a>
-      <a href="https://www.twitch.tv/xkzrychu"><i class="fab fa-twitch"></i></a>
       <a href="https://steamcommunity.com/id/kzrychu"><i class="fab fa-steam"></i></a>
     </div>
   </header>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

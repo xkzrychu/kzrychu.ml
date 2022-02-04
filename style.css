@@ -128,10 +128,10 @@ header .text-content .job{
 }
 header .media-icons{
   display: flex;
-  flex-direction: row;
-  position: absolute;
-  right: 40px;
-  bottom: 40px;
+  flex-direction: column;
+  position: fixed;
+  right: 50px;
+  bottom: 62px;
 }
 .media-icons a{
  margin-top: 8px;
